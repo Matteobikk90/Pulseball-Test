@@ -3,56 +3,43 @@
 <head>
   <title>PulseBall</title>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/js.js"></script>
 
 </head>
 <body>
   <div class="container">
+
       <div id="rankings">
 
-        <table border="4" id="rankings">
+       <table border="4" id="squares">
         <tr>
-          <td class="squares">Teams</td>
-          <td class="squares">Points</td>
-        </tr>
-        <tr>
-          <td class="squares"></td>
-          <td class="squares"></td>
-        </tr>
-        <tr>
-          <td class="squares"></td>
-          <td class="squares"></td>
-        </tr>
-        <tr>
-          <td class="squares"></td>
-          <td class="squares"></td>
-        </tr> 
-         <tr>
-          <td class="squares"></td>
-          <td class="squares"></td>
-        </tr>
-         <tr>
-          <td class="squares"></td>
-          <td class="squares"></td>
+          <td class="teams">Teams</td>
+          <td class="points">Points</td>
         </tr>
        </table>
-       </div>
+
+      </div>
       
       <div id="match-form">
         <h3>Play New Match</h3>
+
           <div class="form">
             <label class="firstTeam">First Team</label>
             <input type="text" id="first-team" placeholder="First Team">
           </div>
+
           <div class="form">
             <label class="secondTeam">Second Team</label>
             <input type="text" id="second-team" placeholder="Second Team">
           </div>
+
           <div class="form">
             <label class="Home Country">Home Country</label>
             <input type="text" id="Home Country" placeholder="Home Country">
           </div>
+          
           <div class="form">
             <label class="result">Result</label>
             <select id="result">
@@ -62,9 +49,11 @@
               <option value="D">D (Draw)</option>
             </select>
           </div>
+
           <div class="submit-button">
             <input type="submit" class="addMatchBTN" value="Add Match">
           </div>
+
       </div>
   </div>
 </body>

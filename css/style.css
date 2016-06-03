@@ -24,3 +24,20 @@ h3{
     position: relative;
     width: 50%;
 }
+
+table {
+    width: 600px;
+    height: 382px;
+}
+
+.teams {
+  text-align: center;
+}
+
+.points {
+  text-align: center;
+}
+
+.form {
+  height: 40px;
+}
