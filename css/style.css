@@ -1,0 +1,26 @@
+body{
+  background: white;
+}
+
+h3{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 1330px;
+    height: 427px;
+}
+
+#rankings {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+#match-form {
+    float: right;
+    position: relative;
+    width: 50%;
+}
